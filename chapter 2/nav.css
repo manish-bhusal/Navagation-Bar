@@ -1,0 +1,29 @@
+ul {
+  margin: 0;
+  padding: 0;
+  background-color: #72cf82;
+  height: 42px;
+}
+
+ul li {
+  float: left;
+  padding: 0 16px;
+  list-style-type: none;
+  text-transform: uppercase;
+  line-height: 29px;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+}
+ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  background-color: rgb(153, 221, 25);
+  height: 42px;
+  font-size: 1.4rem;
+}
